@@ -9,4 +9,5 @@ const sequelize: Sequelize = new Sequelize({
     models: Models
 });
 
+
 export default sequelize;

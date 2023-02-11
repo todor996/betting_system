@@ -11,6 +11,7 @@
     "emitDecoratorMetadata": true,
     "target": "esnext",
     "moduleResolution": "Node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["node"]
   }
 }
