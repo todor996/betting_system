@@ -4,5 +4,11 @@
     "storage": "./database.sqlite",
     "username": "root",
     "password": ""
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "./database-test.sqlite",
+    "username": "root",
+    "password": ""
   }
 }

@@ -6,6 +6,7 @@ const typeDefs = gql`
     userId: Int!
     chance: Float!
     payout: Float!
+    betAmount: Float!
     win: Boolean!
     user: User!
   }

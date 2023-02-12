@@ -12,6 +12,6 @@
     "target": "esnext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "types": ["node"]
+    "types": ["node","jest"]
   }
 }
