@@ -1,8 +1,8 @@
-import { Bet } from "./bet";
-import { User } from "./user";
+import { Bet } from './bet';
+import { User } from './user';
 
 export const models = {
-    User,
-    Bet
-}
+  User,
+  Bet
+};
 export default [User, Bet];
