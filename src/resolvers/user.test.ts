@@ -56,7 +56,7 @@ describe("User tests", () => {
         const { data } = await request(server)
             .query(gql`
                 query {
-                        getUser(id: 50) {
+                        getUser(id: 1) {
                             id
                             name
                             balance
