@@ -29,9 +29,9 @@ AND b.chance = min_chances.min_chance
 WHERE b.win = true
 GROUP BY b.userId
 ORDER BY b.chance ASC
-LIMIT :limit;`,
+${args.limit ? 'LIMIT :limit;' : ''}`,
         {
-          replacements: { limit: args.limit || 0 },
+          replacements: { limit: args.limit || 100 },
           type: QueryTypes.SELECT
         }
       );
